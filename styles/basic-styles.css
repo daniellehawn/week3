@@ -24,7 +24,7 @@
 .flex-container div {
   padding: 1rem;
   width: 4rem;
-  /*height: 4rem;*/
+  height: 4rem;
 }
 
 .flex-container div p {
