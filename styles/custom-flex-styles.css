@@ -1,0 +1,26 @@
+.flex-container { 
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */ 
+  /* solution 1 flex-flow: row wrap;
+  justify-content: space-around; *?
+  /* solution 2
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between; */
+  width: 15rem;
+  height: 20rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E20074;
+  height: 12rem;
+}
+
